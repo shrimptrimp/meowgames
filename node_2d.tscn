@@ -1,6 +1,14 @@
-[gd_scene format=3 uid="uid://bgk3q4xbedkel"]
+
+[gd_scene load_steps=2 format=3 uid="uid://cgu8rlu38kbus"]
+
+[ext_resource type="Texture2D" path="res://icon.svg" id="1_omrmv"]
 
 [node name="Node2D" type="Node2D"]
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(372, 282)
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(589, 102)
+texture = ExtResource("1_omrmv")
+

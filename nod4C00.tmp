@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://bgk3q4xbedkel"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(372, 282)
