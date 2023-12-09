@@ -1,3 +1,4 @@
+
 [gd_scene load_steps=2 format=3 uid="uid://cgu8rlu38kbus"]
 
 [ext_resource type="Texture2D" path="res://icon.svg" id="1_omrmv"]
@@ -10,3 +11,4 @@ position = Vector2(372, 282)
 [node name="Icon" type="Sprite2D" parent="."]
 position = Vector2(589, 102)
 texture = ExtResource("1_omrmv")
+
