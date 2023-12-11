@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" load_steps=5 format=3 uid="uid://d3dy71y4f5kll"]
+
+[ext_resource type="Texture2D" uid="uid://ymrueq0t3n17" path="res://art/playerGrey_up1.png" id="1_bxjex"]
+[ext_resource type="Texture2D" uid="uid://0a5awj6g3g4x" path="res://art/playerGrey_up2.png" id="2_2otgs"]
+[ext_resource type="Texture2D" uid="uid://cej2apr5jd75q" path="res://art/playerGrey_walk1.png" id="3_240jp"]
+[ext_resource type="Texture2D" uid="uid://icqm8rarh7e6" path="res://art/playerGrey_walk2.png" id="4_oflkc"]
+
+[resource]
+resource_name = "walk"
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_bxjex")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_2otgs")
+}],
+"loop": true,
+"name": &"up",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_240jp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_oflkc")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 5.0
+}]
